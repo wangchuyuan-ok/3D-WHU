@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="welcome to Your Vue.js App"/>
+    <mybaby></mybaby>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//这里mybaby可以取一个你喜欢的名字。
+import mybaby from "./components/loadBuild.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    mybaby
   }
 }
 </script>
@@ -23,6 +23,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
